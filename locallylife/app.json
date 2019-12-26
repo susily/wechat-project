@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "page/index/index",
+    "page/message/message",
+    "page/profile/profile",
+    "page/list/list"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#E6790A",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "本地生活",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "black",
+    "backgroundColor": "#eeeeee",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "page/index/index",
+        "text": "首页",
+        "iconPath": "assets/tabbar/shouye.png",
+        "selectedIconPath": "assets/tabbar/shouye-active.png"
+      },
+      {
+        "pagePath": "page/message/message",
+        "text": "消息",
+        "iconPath": "assets/tabbar/xiaoxi.png",
+        "selectedIconPath": "assets/tabbar/xiaoxi-active.png"
+      },
+      {
+        "pagePath": "page/profile/profile",
+        "text": "我的",
+        "iconPath": "assets/tabbar/wode.png",
+        "selectedIconPath": "assets/tabbar/wode-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

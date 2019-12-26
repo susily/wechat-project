@@ -1,0 +1,55 @@
+.slides{
+  width:100%;
+  height: 380rpx;
+  background:#888
+}
+.slides navigator,
+.slides image{
+  width:100%;
+  height: 380rpx;
+}
+
+.grids{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.grids .item{
+  width:250rpx;
+  height:250rpx;
+  border:1px solid #ccc;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.grids .item image{
+  width: 70rpx;
+  height: 70rpx;
+}
+.grids .item text{
+  margin-top: 20rpx;
+  color: #888;
+  font-size: 12px;
+}
+.recommends{
+  width: 100%;
+  height:150rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.recommends view{
+  margin:15px;
+  width: 345rpx;
+  height:120rpx;
+  border-radius:10rpx;
+  background-image: linear-gradient(45deg,rgba(52, 102, 255, 0.1), rgba(31, 112, 255, 0.5));
+  text-align: center;
+  line-height: 120rpx;
+  font-size:40rpx;
+}
+.recommends view:nth-of-type(2){
+  background-image: linear-gradient(45deg,rgba(255,0,0,0.1), rgba(255, 57, 24, 0.5));
+}

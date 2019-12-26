@@ -1,0 +1,77 @@
+/* page/list/list.wxss */
+.search{
+  width: 750rpx;
+  height:90rpx;
+  background-color:#ffffff;
+  line-height:100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:fixed;
+  top:0;
+  z-index:9 ;
+}
+.search input{
+  margin-left: 40rpx;
+  display: block;
+  width: 650rpx;
+  height: 70rpx;
+  background-color:white;
+  padding-left: 10rpx;
+  border: 1px solid #888888;
+  border-radius: 10rpx;
+  box-sizing: border-box;
+  line-height: 100%;
+  font-size: 14px;
+}
+.search icon{
+  display: block;
+  margin-left:20rpx;
+  margin-top: 25rpx;
+}
+
+.shops{
+  position: relative;
+  top:91rpx;
+  margin:10rpx;
+  width: 730rpx;
+  display: flex;
+  flex-wrap:wrap;
+}
+.shopsitem{
+  position: relative;
+  margin-top: 10rpx;
+  width: 100%;
+  height: 150rpx;
+  box-sizing: border-box;
+  border: 1rpx solid #888888;
+  display: flex;
+
+}
+.shops image{
+  width:150rpx;
+  height:100%;
+}
+.shopinfo{
+  margin-left:30rpx ;
+  width:500rpx;
+  height: 140rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.shopinfo text{
+  font-size: 20rpx;
+}
+.score{
+  position: absolute;
+  top:0;
+  right:0;
+  width: 60rpx;
+  height: 40rpx;
+  border-radius: 10rpx;
+  font-size: 30rpx;
+  text-align: center;
+  color: white;
+  background-color: red;
+}

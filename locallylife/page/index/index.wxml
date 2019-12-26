@@ -1,0 +1,26 @@
+<!--page/index/index.wxml-->
+<swiper class="slides" >
+    <swiper-item wx:for="{{slides}}" wx:key="id">
+        <navigator wx:if="{{item.link}}" url="/page/list/list?cat=10">
+            &lt;!&ndash;<image src="{{item.image}}"/>&ndash;&gt;
+        </navigator>
+        <image wx:else src="{{item.image}}"/>
+    </swiper-item>
+</swiper>
+
+<view class="grids">
+    <!--无法确定点击哪个导航到哪个列表页面，因此加上？cat=id为每个icon的点击跳转到对应的页面-->
+    <navigator class="item" url="/page/list/list?cat={{item.id}}" wx:for="{{categories}}" wx:key="id">
+        <image src="{{item.icon}}" />
+        <text>{{item.name}}</text>
+    </navigator>
+</view>
+
+<view class="recommends">
+    <view>
+        商家推荐
+    </view>
+    <view>
+        交友论坛
+    </view>
+</view>
